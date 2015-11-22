@@ -1,5 +1,15 @@
 package com.ttnd.im
 
+/**
+ * Demo 03
+ *
+ * using delegate with metaClass
+ * Adding multiple instance methods at once
+ * Adding multiple static methods at once
+ * Adding methods with different args
+ *
+ */
+
 String.metaClass.mingle = {->
     List chars = delegate.toCharArray() as List
     Collections.shuffle(chars)

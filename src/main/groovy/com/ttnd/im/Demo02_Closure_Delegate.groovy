@@ -1,5 +1,13 @@
 package com.ttnd.im
 
+/**
+ * Demo 02
+ *
+ * Using delegate with Closures
+ * A bigger example of Closure delegation
+ * Closure delegation strategies
+ */
+
 def closure = {}
 
 class StringUtils {
@@ -76,3 +84,10 @@ ClosureHuman1 human1 = new ClosureHuman1()
 human1.constraints.delegate = new Validations(human1.constraints)
 println human1.constraints.isValid()
 println human1.constraints.errors
+
+
+//Closure delegation has multiple strategies
+Closure.DELEGATE_FIRST
+Closure.DELEGATE_ONLY
+Closure.OWNER_FIRST
+Closure.OWNER_ONLY
