@@ -5,7 +5,7 @@ package com.ttnd.im
  *
  * Using delegate with Closures
  * A bigger example of Closure delegation
- * Closure delegation strategies
+ * Closure delegation strategies - Only touch surface. No detail examples
  */
 
 def closure = {}

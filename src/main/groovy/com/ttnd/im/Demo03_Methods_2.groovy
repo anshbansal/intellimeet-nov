@@ -3,6 +3,7 @@ package com.ttnd.im
 /**
  * Demo 03
  *
+ * Need of delegate -> Using original value
  * using delegate with metaClass
  * Adding multiple instance methods at once
  * Adding multiple static methods at once
