@@ -70,3 +70,16 @@ try {
 def methodName = "hello"
 "aseem"."$methodName"()
 
+
+5.times {
+    Integer.metaClass."a$it" << {
+        println "Hi"
+    }
+}
+
+7.a4()
+println "****"
+
+5.times {
+    1."a$it"()
+}
