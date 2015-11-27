@@ -1,5 +1,11 @@
 package com.ttnd.im
 
+/**
+ * Demo 07
+ *
+ * Expando - What using it maps to
+ */
+
 
 def expando = new Expando()
 expando.companyName = "TTN"

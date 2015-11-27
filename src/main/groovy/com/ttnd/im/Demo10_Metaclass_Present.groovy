@@ -1,7 +1,7 @@
 package com.ttnd.im
 
 /**
- * Demo 08
+ * Demo 10
  *
  * Check whether method or property is present
  * Don't forget to notice that MetaClass extends MetaObjectProtocol
